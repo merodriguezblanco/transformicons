@@ -1,0 +1,27 @@
+@media (min-width: 768px) and (max-width: 979px) {
+  main {
+    width: 90%;
+  }
+}
+
+@media (max-width: 767px) {
+  main {
+    width: 90%;
+  }
+
+  footer {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .github-repo-info {
+    a {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+
+  #tcons-contributors {
+    display: none;
+  }
+}
