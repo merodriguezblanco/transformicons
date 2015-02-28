@@ -5,8 +5,29 @@
 }
 
 @media (max-width: 767px) {
-  main {
-    width: 90%;
+  .tcon-title {
+    font-size: 3.5em;
+  }
+
+  .tcon-tagline {
+    margin-bottom: 5px;
+  }
+
+  nav {
+    a {
+      border: none;
+
+      &:hover,
+      &:focus,
+      &.active {
+        color: #FFFEFE;
+        background: none;
+        border: none;
+      }
+      &:active {
+        transform: none;
+      }
+    }
   }
 
   footer {
@@ -23,5 +44,28 @@
 
   #tcons-contributors {
     display: none;
+  }
+
+  main {
+    width: 90%;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .tcon-title {
+    font-size: 2.5em;
+  }
+
+  .tcon-tagline {
+    font-size: 0.8em;
+    text-align: center;
+    width: 90%;
+  }
+
+  nav {
+    a {
+      font-size: 0.8em;
+    }
   }
 }
