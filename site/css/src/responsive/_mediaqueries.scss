@@ -14,8 +14,12 @@
   }
 
   nav {
+    flex-direction: column;
+    margin-top: 20px;
+
     a {
       border: none;
+      padding: 10px;
 
       &:hover,
       &:focus,
@@ -26,6 +30,9 @@
       }
       &:active {
         transform: none;
+      }
+      &:first-child {
+        display: none;
       }
     }
   }
