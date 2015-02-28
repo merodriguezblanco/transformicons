@@ -53,6 +53,19 @@
   .language-html {
     font-size: 0.8em;
   }
+
+  .tcon-row {
+    flex-direction: column;
+
+    .tcon-row__items {
+      flex-direction: column;
+      width: auto;
+
+      .tcon {
+        margin: 20px 6px;
+      }
+    }
+  }
 }
 
 @media (max-width: 480px) {
