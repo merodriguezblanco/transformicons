@@ -50,6 +50,9 @@
     width: 90%;
   }
 
+  .language-html {
+    font-size: 0.8em;
+  }
 }
 
 @media (max-width: 480px) {
@@ -66,6 +69,27 @@
   nav {
     a {
       font-size: 0.8em;
+      margin-left: 0;
+      margin-right: 0;
+      padding: 5px;
     }
+  }
+
+  main {
+    width: 90%;
+  }
+
+  table {
+    font-size: 0.8em;
+
+    tbody tr th {
+      padding-right: 0;
+    }
+  }
+
+  .language-html,
+  .language-scss,
+  .language-javascript {
+    font-size: 0.9em;
   }
 }
