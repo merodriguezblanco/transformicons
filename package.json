@@ -44,10 +44,10 @@
     "gulp-usemin": "0.3.8",
     "gulp-util": "3.0.3",
     "lodash": "3.0.0",
-    "marked": "0.3.3"
+    "marked": "0.3.3",
+    "del": "^1.1.1"
   },
   "devDependencies": {
-    "del": "^1.1.1",
     "gulp-livereload": "3.7.0"
   }
 }
